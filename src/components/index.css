@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 350px;
+  background-color: blue;
+  color: white;
+}
+
+.item {
+  padding: 10px;
+}
+.item:hover {
+  background-color: lightblue;
+}
+
+.item.expandable {
+  cursor: pointer;
+}
